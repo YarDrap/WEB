@@ -1,0 +1,593 @@
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Comfortaa', sans-serif;
+	color: #000;
+	font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	font-family: 'Playfair Display', sans-serif;
+}
+
+h2 {
+	font-size: 65px;
+	letter-spacing: 3px;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 1320px;
+	margin: 0 auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+button {
+	display: block;
+	margin: auto;
+	font-family: Comfortaa;
+	font-weight: bold;
+	border: none;
+	border-radius: 30px;
+	cursor: pointer;
+	pointer-events: auto;
+	transition: all 0.3s;
+}
+
+button:hover {
+	transform: scale(1.1);
+}
+
+.phone-only {
+	display: none;
+}
+
+/*-------------------------HEADER---------------------------*/
+
+.header {
+	position: fixed;
+	background-color: #F7D5E2;
+	width: 100%;
+}
+
+.logo {
+	height: 50px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.header2 {
+	display: flex;
+	align-items: center;
+}
+
+.menu {
+	display: flex;
+	column-gap: 40px;
+	align-items: center;
+	margin-left: auto;
+	margin-right: 0;
+	transition: all 0.4s ease-in-out;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+	color: rgba(211, 79, 115, 0.8);
+	transition: all 0.3s;
+}
+
+a:hover {
+	color: rgba(211, 79, 115, 1);
+}
+
+.header2 button {
+	font-size: 16px;
+	padding: 10px 20px;
+	background-color: #D34F73;
+	color: white;
+}
+
+.hamburger {
+	display: none;
+}
+
+/*------------------------MAIN------------------------*/
+
+.main {
+	background: url('../img/main-image.jpg') no-repeat center top /cover;
+	height: 770px;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2) inset;
+}
+
+.main h1 {
+	color: white;
+	font-size: 90px;
+	letter-spacing: 2px;
+	padding-left: 620px;
+	padding-top: 230px;
+}
+
+/*------------------------TASTE------------------------*/
+
+.taste {
+	background: white;
+	padding-bottom: 90px;
+}
+
+.taste h2 {
+	color: #D34F73;
+}
+
+.taste img {
+	margin-left: 202px;
+}
+
+.taste_txt1, .taste_txt2 {
+	display: flex;
+	margin-left: auto;
+	padding-bottom: 50px;
+}
+
+.taste_txt2 {
+	display: flex;
+	margin-left: auto;
+}
+
+.taste li {
+	font-size: 20px;
+	color: #3D3B8E;
+}
+
+#snickers {
+	margin-left: 242px;
+}
+
+#blueberry-mint {
+	margin-left: 258px;
+}
+
+#pear-parmigiano {
+	margin-left: 214px;
+}
+
+#chocolate {
+	margin-left: 233px;
+}
+
+#strawberry-coconut {
+	margin-left: 220px;
+}
+
+#mango-maracuja {
+	margin-left: 182px;
+}
+
+/*#phone-only-taste {
+	display: none;
+}*/
+
+/*------------------------DECOR------------------------*/
+
+.decor {
+	background: #3D3B8E;
+	padding-bottom: 105px;
+}
+.decor h2 {
+	color: #F7D5E2;
+}
+
+.decor img {
+	margin-left: 98px;
+}
+
+/*------------------------PRICE------------------------*/
+
+.price {
+	background: white;
+	padding-bottom: 80px;
+}
+
+.price h2 {
+	color: #04A36A;
+}
+
+#pricing {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.price-card {
+  border: 2px solid #F7D5E2;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+#price-card2 {
+	background-color: #F7D5E2;
+}
+
+.price-card h3 {
+	color: #3D3B8E;
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+
+.price-card h4 {
+	font-family: Comfortaa;
+	color: #D34F73;
+   font-size: 35px;
+   width: bold;
+   padding-bottom: 30px;
+}
+
+.price-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.price-card ul li {
+	color: #3D3B8E;
+	margin-bottom: 10px;
+}
+
+.price-card button {
+  background-color: rgba(211, 79, 115, 0.8);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.price-card button:hover {
+  background-color: rgba(211, 79, 115, 1);
+}
+
+/*------------------------MORE------------------------*/
+
+.more {
+	background: #04A36A;
+	padding-bottom: 150px;
+}
+
+.more h2 {
+	color: white;
+}
+
+.more iframe {
+   display: block;
+   width: 720px;
+   height: 400px;
+   margin: 0 auto;
+}
+
+/*------------------------CONTACT------------------------*/
+.contact {
+	background: #3D3B8E;
+	display: flex;
+	text-align: center;
+	padding-bottom: 100px;
+
+}
+
+.contact h2 {
+	color: #F7D5E2;;
+}
+
+.contact-inputs {
+	font-family: Comfortaa;
+	font-size: 16px;
+	height: 30px;
+	width: 250px;
+	border: none;
+	outline: none;
+	padding-left: 10px;
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+
+.contact-inputs:focus {
+	border: 2px solid #F7D5E2;
+}
+
+.contact-inputs::placeholder {
+	color: #F7D5E2;
+}
+
+.form button {
+	margin-top: 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 15px 30px;
+	background-color: #F7D5E2;
+	color: #3D3B8E;
+	width: 260px;
+}
+
+/*------------------------FOOTER------------------------*/
+
+.footer {
+	background: #D34F73;
+	padding-bottom: 40px;
+
+}
+
+.footer-logo {
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.inst-logo, .ph-logo, .loc-logo {
+	display: flex;
+	align-items: center;
+}
+
+.inst-logo a, .ph-logo a, .loc-logo a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.inst-logo img, .ph-logo img, .loc-logo img {
+	padding-left: 369px;
+	padding-right: 16px;
+	padding-bottom: 10px;
+}
+
+.footer logo {
+	padding-bottom: 0px;
+}
+
+#inst-link {
+	padding-right: 277px;
+}
+
+#ph-link {
+	padding-right: 224px;
+}
+
+#loc-link {
+	padding-right: 267px;
+}
+
+ 
+
+
+
+/*                    MOBILE VERSION                    */
+
+
+
+@media only screen and (max-width: 600px) {
+
+	.container {
+		width: 80%;
+	}
+
+	h2 {
+		font-size: 40px;
+	}
+
+	.web-only {
+		display: none;
+	}
+
+	.phone-only {
+		display: block;
+	}
+
+	/*-------------------------HEADER---------------------------*/
+
+	.menu {
+		position: fixed;
+		top: 70px;
+		left: 0;
+		background-color: #F7D5E2;
+		width: 100%;
+		padding: 10px 0 25px;
+		flex-direction: column;
+		row-gap: 20px;
+		transform: translateY(-120%);
+	}
+
+	.menu li {
+		margin-left: 0px;
+	}
+
+	.hamburger {
+		display: block;
+		margin-left: auto;
+		margin-right: 0;
+		cursor: pointer;
+	}
+
+	.bar {
+		height: 4px;
+		width: 30px;
+		background: white;
+		margin: 5px 0;
+		border-radius: 2px;
+		transition: all 0.3s ease-in-out;
+	}
+
+	.menu--open {
+		transform: translate(0) !important;
+	}
+
+	.hamburger--open .bar:nth-child(1) {
+		transform: translateY(9px) rotate(45deg);
+	}
+
+	.hamburger--open .bar:nth-child(2) {
+		opacity: 0;
+	}
+
+	.hamburger--open .bar:nth-child(3) {
+		transform: translateY(-9px) rotate(-45deg);
+	}
+
+
+	/*--------------------------MAIN---------------------------*/
+
+	.main {
+		background: url('../img/background-phone.jpg') no-repeat center top /cover;
+		height: 1004px;
+		box-shadow: none;
+	}
+
+	.main h1 {
+		color: white;
+		font-size: 50px;
+		letter-spacing: 1px;
+		text-align: center;
+		padding-left: 0px;
+		padding-top: 120px;
+	}
+
+	/*------------------------TASTE------------------------*/
+
+	.taste {
+		padding-bottom: 30px;
+	}
+
+	#phone-only-taste {
+		display: block;
+	}
+
+	.taste img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.taste p {
+		color: #3D3B8E;
+		font-weight: bold;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+
+	#mango-maracuja {
+		margin-left: 0px;
+	}
+
+	/*------------------------DECOR------------------------*/
+
+	.decor {
+		padding-bottom: 50px;
+	}
+
+	.decor img {
+		display: block;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 30px;
+	}
+
+	/*------------------------PRICE------------------------*/
+
+	#pricing {
+	  flex-direction: column;
+	}
+
+	/*------------------------MORE------------------------*/
+
+	.more {
+		padding-bottom: 80px;
+	}
+
+	.more iframe {
+	   width: 288px;
+	   height: 160px;
+	}
+
+	/*------------------------FOOTER------------------------*/
+
+	.footer {
+		padding-bottom: 0px;
+		display: flex;
+		align-items: center;
+		margin-left: auto;
+  		margin-right: auto;
+  		padding-bottom: 20px;
+	}
+
+	#home-link, #price-link, #more-link {
+		display: none;
+	}
+
+	.footer img {
+		padding-left: 0px;
+	}
+
+	.footer-logo {
+		padding-bottom: 50px;
+	}
+
+	#inst-link, #ph-link, #loc-link {
+		padding-right: 0px;
+	}
+
+	.inst-logo, .ph-logo, .loc-logo {
+		padding-left: 40px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
